@@ -1,0 +1,91 @@
+:root{
+
+    --text-color: #000000;
+    --header-color: #23856D;
+    --user-link-color:#318CE7;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-top:20px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-color);
+    color: #fff;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-left:25px;
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+}
+
+.discount{
+    margin-right:50px;
+}
+
+.social{
+    display: flex;
+    margin-right: 50px;
+}
+
+.social_btn{
+    margin-right:5px;
+    margin-left: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo{
+    margin-left:20px;
+}
+
+.nav_body{
+    display: flex;
+    align-items: center;
+    margin-right:30px;
+}
+
+.nav_links{
+    margin-left:80px;
+    
+}
+.nav_links > a{
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 15px;
+    
+    
+}
+
+.user_link{
+    display: flex;
+    align-items: center;
+    margin-right:30px;
+}
+
+.user_link > a{
+    text-decoration: none;
+    color: var(--user-link-color);
+    margin-right: 20px;
+}
+

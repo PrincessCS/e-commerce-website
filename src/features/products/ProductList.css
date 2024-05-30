@@ -1,0 +1,32 @@
+:root{
+    --button-color: #23A6F0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.product-list{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap:30px;
+    
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+.load_more{
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+    padding:15px 40px 15px 40px;
+    gap:10px;
+    background-color: #fff;
+    color: var(--button-color);
+    margin-top: 50px;
+    
+}

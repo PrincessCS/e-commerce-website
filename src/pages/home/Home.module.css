@@ -1,0 +1,176 @@
+:root{
+
+    --text-color: #000000;
+    --header-color: #23856D;
+    --user-link-color:#318CE7;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.img_div{
+    margin-top:4px;
+    margin-left:147px;
+} 
+
+.products{
+    padding: 80px 0px 80px 0px;
+    text-align: center;
+}
+
+.products h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.products h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.products p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.87rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.feature_div{
+    padding:80px 0px 80px 0px;
+    gap:80px;
+    
+}
+
+.feature_header{
+    text-align: center;
+}
+
+.feature_header > h2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.feature_header > h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 32px;
+
+}
+
+.feature_header > p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.img_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.post_section{
+    margin-left: 100px;
+    padding: 80px 0px 80px 0px;
+}
+
+
+.post_header{
+    text-align: center;
+}
+
+.post_header > h6{
+    font-size: 0.87rem;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.post_header > h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 50px;
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    margin-top:30px;
+}
+
+.card{
+    width:350px;
+    height: 550px;
+}
+
+.top_link{
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 16px;
+    color:var(--text-color);
+    margin-right:8px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card > h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.card > p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.date > p{
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.clock_icon{
+    color: var(--user-link-color);
+}
+
+.chart_icon{
+    color:var(--header-color)
+}
+
+.learn_more{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.87rem;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 50px;
+    margin-left: 20px;
+    
+}
+
+
