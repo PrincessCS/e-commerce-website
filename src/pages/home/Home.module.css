@@ -3,6 +3,7 @@
     --text-color: #000000;
     --header-color: #23856D;
     --user-link-color:#318CE7;
+    --paragraph-color:#737373;
 }
 
 *{
@@ -11,6 +12,9 @@
     padding: 0;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
 
 .img_div{
     margin-top:4px;
@@ -23,24 +27,29 @@
 }
 
 .products h2 {
-    font-family: "Montserrat", sans-serif;
+   
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 30px;
+    color:var(--paragraph-color);
+    margin-top: 10px;
 }
 
 .products h3{
-    font-family: "Montserrat", sans-serif;
+    
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 32px;
+    margin-top: 10px;
 }
 
 .products p{
-    font-family: "Montserrat", sans-serif;
+  
     font-size: 0.87rem;
     font-weight: 400;
     line-height: 20px;
+    color: var(--paragraph-color);
+    margin-top: 10px;
 }
 
 .feature_div{
@@ -57,6 +66,7 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 30px;
+    color:var(--paragraph-color);
 }
 
 .feature_header > h3{
@@ -70,16 +80,39 @@
     font-size: 0.87rem;
     font-weight: 400;
     line-height: 20px;
+    color:var(--paragraph-color);
 
 }
 
 .img_cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap:30px;
+    text-align: center;
+    margin-top: 70px;
 }
 
+
+.card_content > h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 32px;
+    
+   
+    
+}
+
+.card_content > p{
+  
+font-size: 0.87rem;
+font-weight: 400;
+line-height: 20px;
+margin-top: 30px;
+color:var(--paragraph-color)
+
+
+}
 .post_section{
     margin-left: 100px;
     padding: 80px 0px 80px 0px;
@@ -94,6 +127,7 @@
     font-size: 0.87rem;
     font-weight: 700;
     line-height: 24px;
+    color:var(--user-link-color);
 }
 
 .post_header > h3{
@@ -173,4 +207,163 @@
     
 }
 
+.cta{
+    padding:80px 0px 80px 0px;
+}
+
+
+.cta_relative{
+    position:relative;
+  
+
+}
+
+.cta_relative > img{
+    width:1348px;
+    height:600px;
+}
+
+.cta_absolute{
+    position: absolute;
+    top:30%;
+    left:30%;
+    text-align: center;
+}
+
+.cta_textheader{
+    font-size:0.87rem ;
+    font-weight:700 ;
+    line-height: 24px;
+    color:var(--user-link-color);
+}
+
+.cta_texttitle{
+    font-size:2.5rem ;
+    font-weight:700 ;
+    line-height: 50px;
+    margin-top: 15px;
+}
+
+.cta_absolute > p{
+    font-size:0.87rem ;
+    font-weight:400 ;
+    line-height: 20px;
+    color:var(--paragraph-color);
+    margin-top: 20px;
+}
+
+.cta_absolute > h5{
+    font-size:1.5rem ;
+    font-weight:700 ;
+    line-height: 32px;
+    color:var(--header-color);
+    margin-top: 20px;
+}
+
+.cta_btn{
+    padding:15px 40px 15px 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: var(--user-link-color);
+}
+
+.testimonials{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user_testimonial{
+    text-align: center;
+}
+
+.user{
+    margin-top: 60px;
+    
+
+}
+
+.rating{
+    margin-top: 10px;
+}
+
+
+.testimonial_header{
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 32px;
+margin-top: 20px;
+
+
+}
+
+.testimonial_body{
+font-size: 0.87rem;
+font-weight: 700;
+line-height: 24px;
+color: var(--paragraph-color);
+margin-top: 20px;
+
+}
+
+.user_link{
+    text-decoration: none;
+    font-size: 0.87rem;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--user-link-color);
+    padding-top: 30px;
+    
+    
+    }
+
+.user_profession{
+font-size: 0.87rem;
+font-weight: 700;
+line-height: 24px;
+margin-top: 5px;
+
+
+}
+
+@media(max-width:760px){
+
+    .img_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap:30px;
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .posts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:10px;
+        align-items: center;
+        margin-top:30px;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .users_img{
+    margin-top: 50px;
+    }
+
+    .cta_relative > img{
+        width:500px;
+        height:600px;
+    }
+
+    .cta_absolute{
+        left:10%;
+    }
+}
 

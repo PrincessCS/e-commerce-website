@@ -1,0 +1,9 @@
+.product_list{
+    padding: 80px 0px 80px 0px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

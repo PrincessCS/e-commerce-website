@@ -40,9 +40,22 @@ function Home(){
                 </div>
 
                 <div className={styles.img_cards}>
-                    <img src='images/card.png' alt='easy-wins' />
-                    <img src='images/card (1).png' alt='concrete' />
-                    <img src='images/card (2).png' alt='hack-growth' />
+                    <div className={styles.card_content}>
+                    <img src='images/bx_bxs-book-reader.png' alt='easy-wins' />
+                    <h3>Easy Wins</h3>
+                    <p>Get your best looking smile<br/> now!</p>
+                    </div>
+                    <div className={styles.card_content}>
+                    <img src='images/carbon_book.png' alt='concrete' />
+                    <h3>Concrete</h3>
+                    <p>Defalcate is most focused in <br/>helping you discover your most<br/>
+                     beautiful smile</p>
+                    </div>
+                    <div className={styles.card_content}>
+                    <img src='images/uil_arrow-growth.png' alt='hack-growth' />
+                    <h3>Hack Growth</h3>
+                    <p>Overcame any hurdle or any<br/> other problem.</p>
+                    </div>
                 </div>
 
             </div>
@@ -111,6 +124,46 @@ function Home(){
                     <a className={styles.learn_more}>Learn More</a>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div className={styles.testimonials}>
+            <div className={styles.user_testimonial}>
+                <h6 className={styles.testimonial_header}>What they say about us</h6>
+                <div>
+                <img src='images/media circle-box xs-circle.png' alt='user' className={styles.user} />
+                </div>
+                <div>
+                <img src='images/stars.png' alt='rating' className={styles.rating}/>
+                </div>
+                <h6 className={styles.testimonial_body}>Slate helps you see how many more days you need to work to <br />
+                  reach your financial goal.</h6>
+                  <a href="" className={styles.user_link}>Regina Miles</a>
+                  <h6 className={styles.user_profession}>Designer</h6>
+           
+            </div>
+
+            <div className={styles.users_img}>
+                <img src='images/Frame 5.png' alt='users' />
+
+            </div>
+            
+        </div>
+
+        <div className={styles.cta}>
+            <div className={styles.cta_relative}>
+            <img src="images/unsplash_XEmaJaM-4nE.png" alt=''/>
+            <div className={styles.cta_absolute}>
+                <h2 className={styles.cta_textheader}>Designing Better Experience</h2>
+                <h2 className={styles.cta_texttitle}>Problems trying to resolve<br/>
+                 the conflict between</h2>
+
+                <p>Problems trying to resolve the conflict between the two major<br/>
+                 classes of classical physics</p>
+
+                 <h5>$16.48</h5>
+                 <button className={styles.cta_btn}>ADD YOUR CALL TO ACTION</button>
+            </div>
             </div>
         </div>
 

@@ -16,8 +16,8 @@ function App() {
        <div>
     <Routes>
     <Route path = '/' element = {<Home />} />
-    <Route path = '/products' element = {<Products/>} />
-    <Route path = '/cart' element = {<Cart/>} />
+    <Route path = '/products/:id' element = {<Products/>} />
+    <Route path = '/cart/:id' element = {<Cart/>} />
     <Route path = '/navbar' element = {<NavBar />} />
     <Route path = '/footer' element = {<Footer />} />
     </Routes>

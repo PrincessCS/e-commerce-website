@@ -1,16 +1,75 @@
+:root{
+    --text-color:#000;
+    --price-color:#BDBDBD;
+    --discount-color:#23856D;
+    --paragraph-color:#737373;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+
 .product_img{
     width: 183px;
-    height: 400px;
+    height: 350px;
     box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
     margin-left: 30px;
 }
 
+.product_img:hover{
+    cursor: pointer;
+}
+
 .product_img > img{
      width: 183px;
-     height:238px;
+     height:180px;
 } 
 
 .product_details{
     text-align: center;
 }
 
+h5{
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+margin-top: 10px;
+
+
+}
+
+a{
+text-decoration: none;
+font-size: 0.87rem;
+font-weight: 700;
+line-height: 24px;
+color:var(--paragraph-color);
+margin-top: 10px;
+
+
+}
+
+.prices{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.discount{
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+color:var(--discount-color);
+
+
+}
+
+.price{
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+color: var(--price-color);
+
+
+}

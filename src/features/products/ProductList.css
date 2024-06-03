@@ -11,9 +11,14 @@ body{
     justify-content: center;
     align-content: center;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap:30px;
+    row-gap: 30px;
+    column-gap: 5px;
     
-}
+} 
+
+
+
+
 
 .btn_container{
     display: flex;
@@ -29,4 +34,13 @@ body{
     color: var(--button-color);
     margin-top: 50px;
     
+}
+
+@media(max-width:760px){
+    .product-list{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
 }

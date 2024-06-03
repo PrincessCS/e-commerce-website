@@ -15,17 +15,20 @@ const ProductList = () => {
   };
 
   return (
+    <>
     <div className="product-list">
       {data.products.slice(0, shownProducts).map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}
-      {shownProducts < data.products.length &&(
+
+    </div>
+
+    {shownProducts < data.products.length &&(
         <div className='btn_container'>
         <button onClick={handleMoreProducts} className='load_more'>Load More Products</button>
         </div>
       )}
-
-    </div>
+    </>
   );
 };
 
