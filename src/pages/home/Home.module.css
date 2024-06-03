@@ -45,6 +45,7 @@ body{
     line-height: 30px;
     color:var(--paragraph-color);
     margin-top: 10px;
+    text-align: center;
 }
 
 .products h3{
@@ -53,6 +54,7 @@ body{
     font-weight: 700;
     line-height: 32px;
     margin-top: 10px;
+    text-align: center;
 }
 
 .products p{
@@ -62,6 +64,7 @@ body{
     line-height: 20px;
     color: var(--paragraph-color);
     margin-top: 10px;
+    text-align: center;
 }
 
 .feature_div{
@@ -79,12 +82,14 @@ body{
     font-weight: 400;
     line-height: 30px;
     color:var(--paragraph-color);
+    text-align: center;
 }
 
 .feature_header > h3{
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 32px;
+    text-align: center;
 
 }
 
@@ -93,6 +98,7 @@ body{
     font-weight: 400;
     line-height: 20px;
     color:var(--paragraph-color);
+    text-align: center;
 
 }
 
@@ -110,6 +116,7 @@ body{
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 32px;
+    text-align: center;
     
    
     
@@ -140,12 +147,14 @@ color:var(--paragraph-color)
     font-weight: 700;
     line-height: 24px;
     color:var(--user-link-color);
+    text-align: center;
 }
 
 .post_header > h3{
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 50px;
+    text-align: center;
 }
 .posts{
     display: flex;
@@ -247,6 +256,7 @@ color:var(--paragraph-color)
     font-weight:700 ;
     line-height: 24px;
     color:var(--user-link-color);
+    text-align: center;
 }
 
 .cta_texttitle{
@@ -254,6 +264,7 @@ color:var(--paragraph-color)
     font-weight:700 ;
     line-height: 50px;
     margin-top: 15px;
+    text-align: center;
 }
 
 .cta_absolute > p{
@@ -369,6 +380,8 @@ margin-top: 5px;
         text-align: center;
         margin-top: 70px;
     }
+
+
 
     .posts{
         display: flex;
