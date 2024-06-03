@@ -24,42 +24,42 @@ function Footer(){
         <div className={styles.footer}>
             <div className={styles.flex_one}> 
             <div className={styles.company_info}>
-                <p className={styles.link_header}>Company Info</p>
-                <a href="">About Us</a>
-                <a href="">Carrier</a>
-                <a href="">We are Hiring</a>
-                <a href="">Blog</a>
+                <h5 className={styles.link_header}>Company Info</h5>
+                <a href="#">About Us</a>
+                <a href="#">Carrier</a>
+                <a href="#">We are Hiring</a>
+                <a href="#">Blog</a>
             </div>
 
             <div className={styles.legal}>
-                <p className={styles.link_header}>Legal</p>
-                <a href="">About Us</a>
-                <a href="">Carrier</a>
-                <a href="">We are Hiring</a>
-                <a href="">Blog</a>
+                <h5 className={styles.link_header}>Legal</h5>
+                <a href="#">About Us</a>
+                <a href="#">Carrier</a>
+                <a href="#">We are Hiring</a>
+                <a href="#">Blog</a>
                 
             </div>
             </div>
 
             <div className={styles.flex_two}>
             <div className={styles.features}>
-                <p className={styles.link_header}>Features</p>
-                <a href="">Business Marketing</a>
-                <a href="">User Analytic</a>
-                <a href="">Live Chat</a>
-                <a href="">Unlimited Support</a>
+                <h5 className={styles.link_header}>Features</h5>
+                <a href="#">Business Marketing</a>
+                <a href="#">User Analytic</a>
+                <a href="#">Live Chat</a>
+                <a href="#">Unlimited Support</a>
             </div>
 
             <div className={styles.resources}>
-                <p className={styles.link_header}>Resources</p>
-                <a href="">IOS & Android</a>
-                <a href="">Watch a Demo</a>
-                <a href="">Customers</a>
-                <a href="">API</a>
+                <h5 className={styles.link_header}>Resources</h5>
+                <a href="#">IOS & Android</a>
+                <a href="#">Watch a Demo</a>
+                <a href="#">Customers</a>
+                <a href="#">API</a>
             </div>
             </div>
 
-            <div>
+            <div className={styles.contact}>
                 <p className={styles.link_header}>Get In Touch</p>
                 <form>
                     <input type='email' placeholder='Your Email' />
@@ -70,7 +70,7 @@ function Footer(){
         </div>
 
         <div className={styles.bottom_text}>
-            <p>Made With Love By Dera All Right Reserved</p>
+            <p className={styles.footer_note}>Made With Love By Dera All Right Reserved</p>
         </div>
         
         

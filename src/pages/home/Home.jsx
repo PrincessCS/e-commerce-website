@@ -15,8 +15,31 @@ function Home(){
         <NavBar />
         <div>
             <div className={styles.img_container}>
-                <div className={styles.img_div}>
+                <div className={styles.desktop_img}>
                <img src='images/container.png' alt='furnitures' />
+               </div>
+
+               <div className={styles.mobile_img}>
+
+               <div>
+                <img src="images/card-item.png" alt='furniture-1' />
+                </div>
+
+                
+                <div>
+                <img src="images/card-item (1).png" alt='furniture-1' />
+                </div>
+
+                <div>
+                <img src="images/card-item (2).png" alt='furniture-1' />
+                </div>
+
+                <div>
+                <img src="images/card-item (3).png" alt='furniture-1' />
+                </div>
+
+
+              
                </div>
 
             </div>

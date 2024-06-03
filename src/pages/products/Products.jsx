@@ -40,9 +40,10 @@ const Products = () => {
 
         <div className={styles.selectedproduct_detail}>
             <h4>{data.title}</h4>
-            <h5>{data.rating}</h5>
+            <img src='/images/stars.png' alt='rating' className={styles.rating} />
+            <h6>10 Reviews</h6>
             <h5>${data.price}</h5>
-            <h6>Availability: {data.stock}</h6>
+            <h6>Availability: <span>In Stock</span></h6>
 
             <hr></hr>
             <div className={styles.colors}>

@@ -6,8 +6,16 @@ import { FaFacebook, FaYoutube } from "react-icons/fa";
 import { CiSearch, CiHeart} from "react-icons/ci";
 import { TfiEmail } from "react-icons/tfi";
 import { BsCart } from "react-icons/bs";
+import { RxHamburgerMenu } from "react-icons/rx";
+
 
 function NavBar(){
+
+    const [openMenu, setOpenMenu] = useState(false);
+
+    const toggleMenu = () => {
+        setOpenMenu(!openMenu);
+    };
 
    
     return(
@@ -42,7 +50,8 @@ function NavBar(){
         <navbar className={styles.navbar}>
             <div className={styles.nav_body}>
             <h3 className={styles.logo}>Bandage</h3>
-            <div className={styles.nav_links}>
+           
+            <div className={`${styles.nav_links} ${openMenu ? styles.show : ''}`}>
             <a href="">Home</a>
             <a href="">Shop</a>
             <a href="#about">About</a>
@@ -50,13 +59,17 @@ function NavBar(){
             <a href="#contact">Contact</a>
             <a href="#pages">Pages</a>
             </div>
+          
+       
             </div>
 
             <div className={styles.user_link}>
                 <a href="" className={styles.login}><FaRegUser className={styles.user_icon}/>Login/Register</a>
-                <a href=""><CiSearch /></a>
-                <a href=""><BsCart /></a>
-                <a href=""><CiHeart /></a>
+                <a href=""><CiSearch className={styles.search_icon}/></a>
+                <a href=""><BsCart className={styles.cart_icon}/></a>
+                <a href="" className={styles.heart_icon}><CiHeart /></a>
+                <RxHamburgerMenu className={styles.hamburger} onClick={toggleMenu} />
+                
             </div>
 
         </navbar>

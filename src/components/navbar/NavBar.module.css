@@ -3,6 +3,7 @@
     --text-color: #000000;
     --header-color: #23856D;
     --user-link-color:#318CE7;
+    --icon-color:#252B42;
 }
 
 *{
@@ -135,9 +136,86 @@ margin-left: 15px;
     margin-right: 5px;
 }
 
-@media(max-width:760px){
-    .header{
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+   
+}
+
+@media (max-width: 768px) {
+    .header {
         display: none;
+    }
+
+    .nav_body {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    
+
+    .nav_links {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 10;
+       padding-top: 80px;
+       
+    }
+
+    .nav_links > a{
+       
+      font-size: 1.5rem;
+     font-weight: 400;
+      line-height: 45px;
+
+
+    }
+
+    .nav_links.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        
+    }
+
+    .user_link {
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .user_link a {
+        margin-right: 10px;
+        color:var(--text-color);
+       
+    }
+
+    .heart_icon{
+        display: none;
+    }
+
+    .search_icon{
+        width: 24px;
+        height:24px;
+    }
+
+    .cart_icon{
+        width:24px;
+        height: 24px;
     }
 }
 
