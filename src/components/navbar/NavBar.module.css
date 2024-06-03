@@ -165,12 +165,12 @@ margin-left: 15px;
         right: 0;
         width: 100%;
         text-align: center;
-        z-index: 10;
+        z-index: 1000;
        padding-top: 80px;
        
     }
 
-    .nav_links > a{
+    .nav_links > li{
        
       font-size: 1.5rem;
      font-weight: 400;

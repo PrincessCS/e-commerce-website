@@ -16,6 +16,11 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+.img_container{
+    position:relative;
+    top:60px;
+}
+
 .desktop_img {
    display:flex;
    justify-content: center;
@@ -335,12 +340,10 @@ margin-top: 5px;
 
 @media(max-width:768px){
 
-    
-
-    .mobile_img img {
-        width: 100%;
-        height: auto;
+    .img_container{
+        top:100px;
     }
+
 
 
     .desktop_img{

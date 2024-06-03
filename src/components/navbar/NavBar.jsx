@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 import styles from './NavBar.module.css';
 import { BsTelephone } from "react-icons/bs";
 import { FaInstagram, FaRegUser, FaTwitter} from "react-icons/fa6";
@@ -52,10 +53,10 @@ function NavBar(){
             <h3 className={styles.logo}>Bandage</h3>
            
             <div className={`${styles.nav_links} ${openMenu ? styles.show : ''}`}>
-            <a href="">Home</a>
-            <a href="">Shop</a>
+            <Link to='/'>Home</Link>
+            <Link to='/products'>Shop</Link>
             <a href="#about">About</a>
-            <a href="">Blog</a>
+            <a href="#blog">Blog</a>
             <a href="#contact">Contact</a>
             <a href="#pages">Pages</a>
             </div>
@@ -66,7 +67,7 @@ function NavBar(){
             <div className={styles.user_link}>
                 <a href="" className={styles.login}><FaRegUser className={styles.user_icon}/>Login/Register</a>
                 <a href=""><CiSearch className={styles.search_icon}/></a>
-                <a href=""><BsCart className={styles.cart_icon}/></a>
+                <Link to='/cart'><BsCart className={styles.cart_icon}/></Link>
                 <a href="" className={styles.heart_icon}><CiHeart /></a>
                 <RxHamburgerMenu className={styles.hamburger} onClick={toggleMenu} />
                 
