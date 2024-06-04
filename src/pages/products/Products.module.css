@@ -92,6 +92,10 @@ border-radius: 5px;
 
 }
 
+.select_icon:hover{
+    cursor: pointer;
+}
+
 .middle{
     padding:80px 0px 80px 0px;
 }

@@ -5,7 +5,7 @@ import Footer from '../../components/footer/Footer';
 import ProductList from '../../features/products/ProductList';
 import { RiAlarmLine } from "react-icons/ri";
 import { FaChartArea } from "react-icons/fa";
-/*import Products from '../products/Products.jsx';*/
+
 
 
 function Home(){
@@ -175,7 +175,12 @@ function Home(){
 
         <div className={styles.cta}>
             <div className={styles.cta_relative}>
-            <img src="images/unsplash_XEmaJaM-4nE.png" alt=''/>
+            
+            <img src="images/unsplash_XEmaJaM-4nE.png" alt='call-to-action' className={styles.desktop_cta}/>
+            
+
+            <img src="images/unsplash_XEmaJaM-4nE (1).png" alt='call-to-action'  className={styles.mobile_cta}/>
+            
             <div className={styles.cta_absolute}>
                 <h2 className={styles.cta_textheader}>Designing Better Experience</h2>
                 <h2 className={styles.cta_texttitle}>Problems trying to resolve<br/>

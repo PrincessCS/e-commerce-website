@@ -52,11 +52,11 @@ const Products = () => {
             
             <div className={styles.select}>
             <div>
-                <button className={styles.select_btn} onClick={handleAddToCart}>Select Options</button>
+                <button className={styles.select_btn} >Select Options</button>
             </div>
 
             <div className={styles.select_icons}>
-                <BsCart className={styles.select_icon}/>
+                <BsCart className={styles.select_icon} onClick={handleAddToCart} />
                 <CiHeart className={styles.select_icon} />
                 <BsEyeFill className={styles.select_icon}/>
             </div>

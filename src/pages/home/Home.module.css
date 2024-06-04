@@ -239,9 +239,13 @@ color:var(--paragraph-color)
 
 }
 
-.cta_relative > img{
+.desktop_cta{
     width:1348px;
     height:600px;
+}
+
+.mobile_cta{
+    display:none;
 }
 
 .cta_absolute{
@@ -418,12 +422,20 @@ margin-top: 5px;
         margin-right: 150px;
     }
 
-    .cta_relative > img{
+    .desktop_cta{
        display:none;
     }
 
+    .mobile_cta{
+
+        display: block;
+        width:630px;
+        height: 712px;
+      
+    }
+
     .cta_absolute{
-        position: relative;
+        position: absolute;
         
     }
 }

@@ -48,7 +48,7 @@ function NavBar(){
 
         </header>
 
-        <navbar className={styles.navbar}>
+        <nav className={styles.navbar}>
             <div className={styles.nav_body}>
             <h3 className={styles.logo}>Bandage</h3>
            
@@ -73,7 +73,9 @@ function NavBar(){
                 
             </div>
 
-        </navbar>
+        </nav>
+
+        
 
         </div>
         
