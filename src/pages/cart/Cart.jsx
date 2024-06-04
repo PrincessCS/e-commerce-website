@@ -47,7 +47,7 @@ const Cart = () => {
                             <p className={styles.item_title}>{item.title}</p>
                             <p className={styles.item_available}>In stock</p>
                             <div className={styles.rating_reviews}>
-                            <img src='/images/stars.png' alt="Stars" className={styles.rating} /><h5 className={styles.review}>10 Reviews</h5>
+                            <img src='/images/stars.png' alt="Stars" className={styles.rating_img} /><h5 className={styles.review_text}>10 Reviews</h5>
                             </div>
                         </div>
 
@@ -100,6 +100,7 @@ const Cart = () => {
 
                 <div className={styles.checkout}>
                         <button className={styles.checkout_btn}>Proceed To Checkout</button>
+                        <hr/>
 
                         <div className={styles.payment_options}>
                             <img src='/images/Paystack - png.png' alt='paystack' />
@@ -108,6 +109,8 @@ const Cart = () => {
                         </div>
                     </div>
 
+                 
+
                </div>
 
             </div>
@@ -115,7 +118,8 @@ const Cart = () => {
 
          
             <div className={styles.product_list}>
-            <h3>PRODUCTS RELATED TO ITEMS IN YOUR CART</h3>
+            <h3 className={styles.suggestions}>PRODUCTS RELATED TO ITEMS IN YOUR CART</h3>
+            
             <ProductList />
             </div>
 

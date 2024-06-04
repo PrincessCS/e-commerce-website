@@ -3,6 +3,7 @@
     --price-color:#BDBDBD;
     --discount-color:#23856D;
     --paragraph-color:#737373;
+    --div-color:#fff;
 }
 
 body{
@@ -10,10 +11,12 @@ body{
 }
 
 
+
+
 .product_img{
     width: 183px;
     height: 350px;
-    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: var(--div-color);
     margin-left: 30px;
 }
 

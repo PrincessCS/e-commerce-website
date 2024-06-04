@@ -1,9 +1,11 @@
 :root{
     --button-color: #23A6F0;
+   
 }
 
 body{
     font-family: "Montserrat", sans-serif;
+   
 }
 
 .product-list{

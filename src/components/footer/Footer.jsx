@@ -63,14 +63,14 @@ function Footer(){
                 <p className={styles.link_header}>Get In Touch</p>
                 <form>
                     <input type='email' placeholder='Your Email' />
-                    <button>Subscribe</button>
+                    <button className={styles.subscribe_btn}>Subscribe</button>
                 </form>
             </div>
 
         </div>
 
         <div className={styles.bottom_text}>
-            <p className={styles.footer_note}>Made With Love By Dera All Right Reserved</p>
+            <p className={styles.footer_note}>Made With Love By FinLand All Right Reserved</p>
         </div>
         
         

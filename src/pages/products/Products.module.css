@@ -5,10 +5,13 @@
     --title-color:#252B42;
     --availability-color:#737373;
     --line-color:#BDBDBD;
+    --body-background:#FAFAFA;
+    --div-color:#fff;
 }
 
 body{
     font-family: "Montserrat", sans-serif;
+    background-color: var(--body-background);
 }
 
 .product_details{
@@ -87,7 +90,10 @@ hr{
 .select_btn{
 padding: 10px 20px 10px 20px;
 gap: 10px;
+border: none;
 border-radius: 5px;
+background-color: var(--user-link-color);
+color:#fff;
 
 
 }
@@ -98,6 +104,7 @@ border-radius: 5px;
 
 .middle{
     padding:80px 0px 80px 0px;
+    background-color: var(--div-color);
 }
 
 .middle_links{

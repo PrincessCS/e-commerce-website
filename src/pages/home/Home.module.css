@@ -4,6 +4,7 @@
     --header-color: #23856D;
     --user-link-color:#318CE7;
     --paragraph-color:#737373;
+    --div-color:#fff;
 }
 
 *{
@@ -165,8 +166,13 @@ color:var(--paragraph-color)
 }
 
 .card{
-    width:350px;
-    height: 550px;
+    width:280px;
+    height: 500px;
+    background-color:var(--div-color);
+}
+
+.card > img{
+    width:280px;
 }
 
 .top_link{
@@ -290,8 +296,10 @@ color:var(--paragraph-color)
 .cta_btn{
     padding:15px 40px 15px 40px;
     margin-top: 20px;
+    border: none;
     border-radius: 5px;
     background-color: var(--user-link-color);
+    color:#fff;
 }
 
 .testimonials{
@@ -394,14 +402,14 @@ margin-top: 5px;
         gap:50px;
         align-items: center;
         margin-top:30px;
-        margin-right:80px;
+        margin-right:30px;
     }
 
-    .card{
-        
-        width:300px;
-        height: 500px;
-    }
+    
+
+   
+
+    
 
     .testimonials{
         display: flex;
@@ -412,6 +420,11 @@ margin-top: 5px;
 
     .users_img{
     padding: 80px 0px 80px 0px;
+    }
+
+    .users_img >img{
+        width:364px;
+        height:364px;
     }
 
     .cta{
@@ -438,5 +451,7 @@ margin-top: 5px;
         position: absolute;
         
     }
+
+   
 }
 

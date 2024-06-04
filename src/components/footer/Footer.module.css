@@ -3,6 +3,7 @@
     --btn-color:#318CE7;
     --bottom-color:#f0f0f0;
     --paragraph-color:#737373;
+    --div-color:#fff;
 }
 
 
@@ -44,9 +45,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 50px;
-    margin-right: 100px;
     padding-bottom: 50px;
+    background-color: var(--div-color);
     
     
     
@@ -54,6 +54,7 @@ body{
 
 .flex_one{
     display: flex;
+    margin-top: 50px;
     
     
 }
@@ -87,6 +88,7 @@ body{
 
 .flex_two{
     display: flex;
+    margin-top: 50px;
     
     
 }
@@ -131,6 +133,12 @@ body{
 
 }
 
+.contact{
+    margin-top: 50px;
+}
+
+
+
 input{
     padding:11px 10px;
     border: 1px solid var(--paragraph-color);
@@ -143,7 +151,7 @@ input:focus{
    
 }
 
-button{
+.subscribe_btn{
     padding:12px 10px;
     border: none;
     border-radius: 0px 5px 5px 0px;
@@ -162,7 +170,7 @@ button{
 }
 
 .footer_note{
-    margin-left: 8rem;
+margin-left: 8rem;
 font-size: 0.87rem;
 font-weight: 700;
 line-height: 24px;
@@ -228,15 +236,19 @@ color:var(--paragraph-color)
 
     .contact{
         margin-left: 50px;
+       
     }
 
     input{
       
-        padding:15px 15px;
+        padding:15px 10px;
+        width:40%;
+        
     }
 
-    button{
-        padding:16px 15px;
+    .subscribe_btn{
+        padding:16px 10px;
+        width:25%;
         
        
     
@@ -245,6 +257,7 @@ color:var(--paragraph-color)
 
     .footer_note{
       text-align: center;
+      margin-left: auto;
     }
     
 }

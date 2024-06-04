@@ -31,6 +31,8 @@ const Products = () => {
     return(
         <>
         <NavBar />
+
+       
         <div className={styles.products}>
             <div className={styles.product_details}>
                 <div className={styles.selected_product}>

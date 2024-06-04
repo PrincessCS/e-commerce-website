@@ -161,7 +161,7 @@ function Home(){
                 </div>
                 <h6 className={styles.testimonial_body}>Slate helps you see how many more days you need to work to <br />
                   reach your financial goal.</h6>
-                  <a href="" className={styles.user_link}>Regina Miles</a>
+                  <a href="#" className={styles.user_link}>Regina Miles</a>
                   <h6 className={styles.user_profession}>Designer</h6>
            
             </div>
